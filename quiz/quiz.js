@@ -3,7 +3,7 @@ const username = urlParams.get('username');
 let hintcount = 0;
 
 document.getElementById("hint-button").addEventListener("click",function(){
-    var hintaction = confirm("ヒントを表示しますか？");
+    var hintaction = confirm("ヒントを表示しますか？(10点のペナルティが発生します)");
     if (hintaction){
         document.getElementById("hint").textContent = ("見ざる・聞かざる・言わざる");
         hintcount += 1;
