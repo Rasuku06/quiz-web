@@ -1,0 +1,130 @@
+*{
+    background-color: rgb(248, 252, 255);
+    list-style: none;
+    text-align: center;
+}
+
+.img_space{
+    width: 530px;
+    height: 350px;
+}
+
+.choices{
+    width: 500px;
+    height: 350px;
+}
+
+.quiz{
+    text-align: center;
+    display: flex;
+    margin: 20px;
+}
+
+.quiz-box{
+    background-color: rgb(247, 247, 247);
+    display: inline-block;
+    border-radius: 3%;
+    border: 1px solid black;
+    scale: 0.5;
+    transition: 0.5s 0s;
+    margin-left:300px ;
+}
+
+.quiz-box:hover{
+    transform: scale(1.6);
+    box-shadow: 0 30px 40px rgb(118, 118, 118);
+
+}
+
+.quiz-box p{
+    background-color: rgb(247, 247, 247);
+    padding-left: 20px;
+}
+
+.choice{
+    background-color: azure;
+    margin: 20px 0;
+}
+
+input[type=radio]{
+    display: none;
+}
+
+.question{
+    transition: 0.3s;
+    display: block; 
+    float: left; 
+    margin: 5px; 
+    margin-top: 15px;
+    width: 100px; 
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px; 
+    color: #006DD9; 
+    text-align: center; 
+    line-height: 45px;
+    cursor: pointer;
+    border: 2px solid #006DD9;
+    border-radius: 5px; 
+}
+
+.question:hover{
+    background-color: #1978d659;
+    color: white;
+}
+
+input[type="radio"]:checked + label {
+background: #31A9EE;
+color: #ffffff;
+}
+
+#hint-button{
+    display: inline-block;
+    border: 2px solid #31A9EE;
+    padding:5px 10px;
+    margin-top: 10px;
+    color: #31A9EE;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#hint-button:hover{
+    background-color:#31A9EE;
+    color: white;
+}
+
+#hint{
+    text-align: center;
+    font-size: 25px;
+    padding-top:20px;
+}
+
+#submit{
+    display: inline-block;
+    border: 2px solid #31A9EE;
+    padding:10px 20px;
+    margin: 50px 10px;
+    color: #31A9EE;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 30px;
+}
+
+#submit:hover{
+    background-color:#31A9EE;
+    color: white;
+    box-shadow: 0px 15px 15px;
+    transform: scale(1.1);
+}
+
+.header{
+    position: fixed;
+    border: 2px double black;
+    padding: 10px 20px;
+    transition: 0.2s;
+    box-shadow: 0 15px 15px rgb(147, 147, 147);
+}
+
+.header:hover{
+    transform: scale(1.1);
+}

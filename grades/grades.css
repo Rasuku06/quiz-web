@@ -1,0 +1,40 @@
+*{
+    text-align: center;
+    font-family: "serif";
+}
+
+#button{
+    display: inline-block;
+    margin-top: 50px;
+    padding: 20px 40px;
+    border-radius: 50px;
+    background-color: #dedede;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+#button:hover{
+    background-color: rgb(60, 60, 60);
+    color: azure;
+    box-shadow: 0 5px 0;
+}
+
+table {
+    margin-left: 37%;
+    background-color: rgb(255, 255, 255);
+    border-collapse: collapse;
+    margin-top: 100px;
+}
+table th {
+    background-color: #ebfaff;
+}
+table th, table td {
+    border: solid 3px #aaa;
+    padding:15px;
+}
+
+.score{
+    font-size: 30px;
+    margin: 10px;
+}
+
