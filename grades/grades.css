@@ -5,7 +5,7 @@
 
 #button{
     display: inline-block;
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 20px 40px;
     border-radius: 50px;
     background-color: #dedede;
@@ -23,7 +23,7 @@ table {
     margin-left: 37%;
     background-color: rgb(255, 255, 255);
     border-collapse: collapse;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 table th {
     background-color: #ebfaff;
@@ -36,5 +36,9 @@ table th, table td {
 .score{
     font-size: 30px;
     margin: 10px;
+}
+
+#reaction{
+    font-size: 100px;
 }
 
