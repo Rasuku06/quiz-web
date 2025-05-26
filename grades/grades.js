@@ -36,4 +36,22 @@ document.getElementById("button").addEventListener("click",function(){
     const score = count * 20 - hintcount * 10;
     document.getElementById("nameeee").textContent = `${username}　さんの得点は`;
     document.getElementById("scoreboad").textContent = `${score}点です`;
+    if (score == 100){
+        document.getElementById("reaction").textContent = "秀";
+    }
+    if (score == 90){
+        document.getElementById("reaction").textContent = "優";
+    }
+    if ((score <= 80)&&(score >= 70)){
+        document.getElementById("reaction").textContent = "良";
+    }
+    if ((score <= 60)&&(score >= 50)){
+        document.getElementById("reaction").textContent = "可";
+    }
+    if (score <= 40){
+        document.getElementById("reaction").textContent = "不可";
+    }
+    else{
+        document.getElementById("reaction").textContent = "エラー";
+    }
 });
