@@ -51,7 +51,4 @@ document.getElementById("button").addEventListener("click",function(){
     if (score <= 40){
         document.getElementById("reaction").textContent = "不可";
     }
-    else{
-        document.getElementById("reaction").textContent = "エラー";
-    }
 });
