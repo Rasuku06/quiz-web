@@ -4,7 +4,7 @@ const hintcount = parseInt(urlParams.get('hintcount')) || 0;
 const userchoice = rawValue ? rawValue.split(',').map(Number) : [];
 const username = urlParams.get("username");
 
-const questionanswer = [1,3,0,0,1];
+const questionanswer = [1,1,3,0,0];
 
 let getbox1 = document.getElementById("box1");
 let getbox2 = document.getElementById("box2");
